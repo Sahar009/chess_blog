@@ -3,8 +3,10 @@ import { useState, useEffect } from 'react';
 import styles from '../../styles/Post.module.css';
 import {PortableText} from '@portabletext/react';
 import { Toolbar } from '../../components/toolbar';
+import { Footer } from '../../components/footer';
+import { Subscribe } from '../../components/suscribe';
 
-export const Post = ({ title, body, image }) => {
+export const  Post = ({ title, body, image }) => {
   const [imageUrl, setImageUrl] = useState('');
 
   useEffect(() => {
@@ -22,12 +24,13 @@ export const Post = ({ title, body, image }) => {
       <div className={styles.main}>
         <h1>{title}</h1>
         {imageUrl && <img className={styles.mainImage} src={imageUrl} />}
-
         <div className={styles.body}>
           <PortableText value={body} />
           
         </div>
       </div>
+      <Subscribe />
+      <Footer />
     </div>
   );
 };

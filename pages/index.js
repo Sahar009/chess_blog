@@ -4,7 +4,8 @@ import { Toolbar } from '../components/toolbar';
 import imageUrlBuilder from '@sanity/image-url';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import footer from '../components/footer';
+import { Footer} from '../components/footer';
+import  { Subscribe } from '../components/subscribe';
 
 export default function Home({ posts }) {
   const router = useRouter();
@@ -46,9 +47,12 @@ export default function Home({ posts }) {
             </div>
           )) : <>No Games Yet</>}
         </div>
+       
       </div>
-      <footer/>
+      <Subscribe />
+      <Footer />
     </div>
+    
   );
 }
 
