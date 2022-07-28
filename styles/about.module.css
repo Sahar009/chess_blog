@@ -1,0 +1,28 @@
+.main h4 {
+    text-align: center;
+    color: rgb(104, 102, 99);
+    
+  }
+  .about{
+   margin: auto;
+  width: 750px;
+  height: max-content;
+  min-height: 650px;
+  text-align: center;
+  max-width: calc(100vw - 50px);
+  }
+  
+  .feed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .post {
+    margin: 25px;
+    width: 500px;
+    height: 316px;
+    color: rgb(29, 27, 27);
+    cursor: pointer;
+    text-align: center;
+    max-width: calc(100vw - 50px);
+  }
