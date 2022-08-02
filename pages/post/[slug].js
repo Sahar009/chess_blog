@@ -4,7 +4,7 @@ import styles from '../../styles/Post.module.css';
 import {PortableText} from '@portabletext/react';
 import { Toolbar } from '../../components/toolbar';
 import { Footer } from '../../components/footer';
-import { Subscribe } from '../../components/suscribe';
+// import { Subscribe } from '../../components/suscribe';
 
 export const  Post = ({ title, body, image }) => {
   const [imageUrl, setImageUrl] = useState('');
@@ -23,13 +23,13 @@ export const  Post = ({ title, body, image }) => {
       <Toolbar />
       <div className={styles.main}>
         <h1>{title}</h1>
-        {imageUrl && <img className={styles.mainImage} src={imageUrl} />}
+        {/* {imageUrl && <img className={styles.mainImage} src={imageUrl} />} */}
         <div className={styles.body}>
           <PortableText value={body} />
-          
+        
         </div>
       </div>
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Footer />
     </div>
   );

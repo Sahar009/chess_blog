@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 import { Footer} from '../components/footer';
 import  { Subscribe } from '../components/subscribe';
 
+
 export default function Home({ posts }) {
   const router = useRouter();
   const [mappedPosts, setMappedPosts] = useState([]);
@@ -35,9 +36,9 @@ export default function Home({ posts }) {
     <div>
       <Toolbar />
       <div className={styles.main}>
-        <h1>Welcome To My Blog</h1>
+        <h1>Gamble Responsibly</h1>
 
-        <h3>Recent Posts:</h3>
+        <h4>Our predictions are well analysed by Experts across the globe</h4>
 
         <div className={styles.feed}>
           {mappedPosts.length ? mappedPosts.map((p, index) => (

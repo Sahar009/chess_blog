@@ -26,9 +26,7 @@ export const Subscribe = () => {
           </div>
         </form>
         <div className={styles.socialicons}>
-          <div className="social-icon">
-            <TiSocialGooglePlus />
-          </div>
+          
           <div className={styles.socialicon}>
             <FaFacebookF />
           </div>

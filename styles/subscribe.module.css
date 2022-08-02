@@ -1,14 +1,15 @@
 section#subscribe {
-    background: url(../../chess_blog/components/asset/r.jpg);
+    background: url(../../chess_blog/components/asset/r3.jpg);
     text-align: center;
     color: rgb(156, 25, 25);
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
-     width: 750px;
+    height: auto;
+    width: 1000px;
     display: flex;
-      max-width: 90%;
-   margin-bottom: 50px;
+    max-width: 90%;
+    margin-bottom: 50px;
     justify-content: center;
     border-radius: 0px 0px 5px 5px;
     }
