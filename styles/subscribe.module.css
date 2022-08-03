@@ -1,7 +1,7 @@
 section#subscribe {
     background: url(../../chess_blog/components/asset/r3.jpg);
     text-align: center;
-    color: rgb(156, 25, 25);
+    color: rgb(243, 242, 242);
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
@@ -11,7 +11,8 @@ section#subscribe {
     max-width: 90%;
     margin-bottom: 50px;
     justify-content: center;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 15px 15px 15px 15px;
+
     }
   
   .subscribe h2 {
@@ -33,7 +34,7 @@ section#subscribe {
     padding: 1rem;
     background: transparent;
     border: 1px solid #777;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 5px 5px 5px;
     color: #fff;
     outline: none;
     width: 80%;
@@ -42,12 +43,13 @@ section#subscribe {
   
   .formbutton {
     padding: 1rem;
-    background: var(--form-button);
-    border: 1px solid var(--form-button);
-    border-radius: 0 5px 5px 0;
-    color: rgb(190, 105, 105);
+    background: white;
+    border: 1px solid #777;
+    border-radius: 7px 7px 7px 7px 0;
+    color: rgb(211, 0, 0);
     font-size: 1.6rem;
     font-weight: 500;
+    margin-top: 10px;
   }
   
   .socialicons {

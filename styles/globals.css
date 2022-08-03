@@ -7,6 +7,7 @@ body {
   background: linear-gradient(120deg, #833636 0%, #000000 90%);
   padding: 0;
   margin: 0;
+  line-height: 1.7;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -150,10 +151,14 @@ input, textarea {
 
 
     /*small devices*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   
   .container.contact_container{
       width: var(--container-width-sm);
+      align-self: center;
+  }
+  section > h4{
+    margin-top: 6rem;
   }
     
 

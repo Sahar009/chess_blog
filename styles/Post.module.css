@@ -24,3 +24,32 @@
   color: rgb(92, 227, 14);
 
 }
+/*medium devices*/
+@media screen and (max-width: 1024px){
+  .main{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+}
+
+
+    /*small devices*/
+@media screen and (max-width: 600px){
+  
+  .main{
+      width: 90%;
+      text-align: center;
+      
+  }
+  
+  .body p {
+    font-size: 15px;
+    color: rgb(223, 218, 218);
+    
+    line-height: 30px;
+    text-align:center;
+    
+    letter-spacing: 1px;
+  }
+
+}
