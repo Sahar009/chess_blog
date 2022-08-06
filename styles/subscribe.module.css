@@ -77,9 +77,25 @@ section#subscribe {
     background: rgb(76, 76, 120);
   }
   
-  /* @media screen and (max-width: 600px) {
-    form input {
-      width: 60%;
-    }
+  
+/*medium devices*/
+@media screen and (max-width: 1024px){
+  .subscribe{
+      grid-template-columns: 1fr;
+      gap: 2rem;
   }
-   */
+}
+
+
+    /*small devices*/
+@media screen and (max-width: 500px){
+  
+  .subscribe{
+      width: var(--container-width-sm);
+      align-self: center;
+  }
+  .subscribe h2{
+    font-size: 2rem;
+  }
+    
+}

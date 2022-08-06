@@ -14,7 +14,7 @@ const contact = () => {
     <div id='contact'>
       
       <h5>Get In Touch</h5>
-      <h2> Contact Me</h2>
+      <h2> Contact Us</h2>
 
       <div className='container.contact_container'> 
         <div className='contact_options'>
@@ -22,7 +22,7 @@ const contact = () => {
             <MdAttachEmail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5> shepredict@gmail.com</h5>
-            <a href="mailto:akinwumisehinde@gmail.com" target='_blank'> Send a message</a>
+            <a href="mailto:shepredict@gmail.com" target='_blank'> Send a message</a>
           </article>
           <article className='contact_option'>
             <BsWhatsapp className='contact_option-icon'/>

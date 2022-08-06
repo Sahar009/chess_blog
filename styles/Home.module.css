@@ -30,3 +30,29 @@
   width: 450px;
   transition: 0.2s;
 }
+  /*medium devices*/
+  @media screen and (max-width: 1024px){
+    .main{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+   
+  }
+  
+  
+      /*small devices*/
+  @media screen and (max-width: 600px){
+    
+    .main{
+       align-items: center;
+       display: block;
+       margin: 20px;
+    }
+    .main h1, .main h3,.main h4 {
+      text-align: center;
+      size: 0.9rem;
+      
+      
+    }
+  
+  }

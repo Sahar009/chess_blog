@@ -26,10 +26,10 @@ export const Footer = () => {
         <div className={styles.footerbox}>
           <h4>Support</h4>
           <div className={styles.footerlinks}>
-            <a href="#">&bull; Contact</a>
-            <a href="#">&bull; About</a>
+            <a href="/contact">&bull; Contact</a>
+            <a href="/about">&bull; About</a>
             <a href="#">&bull; Disclaimer</a>
-            <a href="#">&bull; VIP</a>
+            <a href="/contact">&bull; VIP</a>
           </div>
         </div>
         <div className={styles.footerbox}>
