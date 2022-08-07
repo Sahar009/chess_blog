@@ -1,12 +1,12 @@
 import { useRouter } from 'next/router';
 import styles from '../styles/Footer.module.css'
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaFax,
-  FaEnvelope,
-  FaGlobe,
-} from "react-icons/fa";
+// import {
+//   FaMapMarkerAlt,
+//   FaPhoneAlt,
+//   FaFax,
+//   FaEnvelope,
+//   FaGlobe,
+// } from "react-icons/fa";
 
 export const Footer = () => {
   const router = useRouter();
