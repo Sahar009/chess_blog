@@ -3,7 +3,7 @@ html{
   
 }
 body {
-  background: linear-gradient(120deg, #833636 10%, #232222 90%);
+  background: linear-gradient(120deg, #ffffff 10%, #d3c8c8df 90%);
   padding: 0;
   margin: 0;
   
@@ -45,7 +45,7 @@ a {
  max-width: calc(100vw - 50px);
  }
  .about h4{
-  color: var(--color-white);
+  color: var(--color-bg);
  }
 #contact{
   margin: auto;

@@ -1,6 +1,6 @@
 .main h1, .main h3,.main h4 {
   text-align: center;
-  color: rgb(230, 228, 225);
+  color: rgba(29, 18, 18, 0.899);
   
 }
 
@@ -13,7 +13,7 @@
   margin: 25px;
   width: 500px;
   height: 316px;
-  color: rgb(29, 27, 27);
+  color: rgb(249, 225, 225);
   cursor: pointer;
   text-align: center;
   max-width: calc(100vw - 50px);

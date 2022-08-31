@@ -13,7 +13,7 @@
 }
 .body p {
   font-size: 24px;
-  color: rgb(223, 218, 218);
+  color: rgb(0, 0, 0);
   text-indent: 50px;
   line-height: 45px;
   text-align: justify;
@@ -24,6 +24,50 @@
   color: rgb(92, 227, 14);
 
 }
+.icon {
+  background-color: rgba(230, 221, 221, 0.918);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20%;
+  top: 1%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  
+}
+
+.icon a {
+  border: 1px solid #fff;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse {
+  transform: translateY(-25%);
+  animation: bounce 0.8s ease infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-25%);
+  }
+  100% {
+    transform: translateY(25%);
+  }
+}
+
 /*medium devices*/
 @media screen and (max-width: 1024px){
   .main{
